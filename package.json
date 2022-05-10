@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "name": "school-management-app",
+  "description": "",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwindcss -i ./App/assets/styles/input.css -o ./App/assets/styles/style.css -w",
+    "dev": "tailwindcss -o ./App/assets/styles/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CH4R4F/school-management-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CH4R4F/school-management-app/issues"
+  },
+  "homepage": "https://github.com/CH4R4F/school-management-app#readme"
+}
