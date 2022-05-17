@@ -1,7 +1,7 @@
 let colors = require("tailwindcss/colors");
 
 module.exports = {
-  content: ["./*.html", "./*.php", "./**/*.html", "./**/*.php"],
+  content: ["./*.html", "./*.php", "./**/*.html", "./**/*.php", "./App/assets/js/*.js"],
   theme: {
     colors: {
       primary: "#793FEF",
@@ -11,6 +11,7 @@ module.exports = {
       lightGrey: "#EEF1F5",
       subTextClrLight: "#DDDDDD",
       white: colors.white,
+      gray: colors.gray
     },
     extend: {},
   },
